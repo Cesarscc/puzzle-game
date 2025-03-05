@@ -9,7 +9,7 @@ const Home = () => {
   const { puzzleState } = useGameStore();
 
   return (
-    <main className="w-full h-full bg-[#b6e5ff] pb-10">
+    <main className="w-full h-full bg-[#b6e5ff] pb-10 pt-16">
       <h1 className="text-xl sm:text-2xl xl:text-3xl font-semibold text-center text-[#064974]">
         ¡PUZZLE GAME!
       </h1>

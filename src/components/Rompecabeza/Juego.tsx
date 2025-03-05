@@ -129,7 +129,7 @@ const Puzzle = () => {
   }, [counter, indexPuzzle]);
 
   return (
-    <div className="flex flex-col items-center gap-4 bg-[#b6e5ff]">
+    <div className="flex flex-col items-center gap-4 bg-[#b6e5ff] pt-16">
       {indexPuzzle != -1 && !puzzleState[indexPuzzle].completed && data && (
         <>
           <div className="flex justify-around w-full">

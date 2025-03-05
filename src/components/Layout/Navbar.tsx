@@ -20,7 +20,7 @@ const Navbar = () => {
   }, [puzzleState]);
 
   return (
-    <nav className="bg-[#042e4d] w-full h-16">
+    <nav className="bg-[#042e4d] w-full h-16 fixed z-20">
       <div className="flex justify-between items-center p-5">
         <i
           className="cursor-pointer rounded"
